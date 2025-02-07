@@ -11,7 +11,6 @@ import reactor.core.publisher.Mono;
 import java.time.LocalDate;
 
 @RestController
-//@CrossOrigin(origins = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
 @RequestMapping("teacher/${api.version}/attendance")
 public class AttendanceController {
 
